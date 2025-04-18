@@ -1,47 +1,31 @@
 
-import java.awt.Button;
-
-
 public abstract class Funcionario {
-    
+
    private String nome;
-   private String matricula;
-   private Float  salario;
+   private Integer id;
 
-    public Float getSalario() {
-        return salario;
-    }
 
-    public void setSalario(Float salario) {
-        this.salario = salario;
-    }
-  
-   
-   
-   
+
+    
    public void setNome(String n){
-       
+
        this.nome = n;
-     
+
    }
-   
-   
-   
-   public void setMatricula(String mat){
-       this.matricula = mat;
+
+   public void setId (Integer id){
+       this.id = id;
    }
-   
+
    public String getNome(){
        return this.nome;
    }
-   
-   public String getMatricula(){
-       return this.matricula;
+
+   public Integer getId(){
+       return this.id;
    }
-   
- 
-           
-           
-    //QUAIS SÃO AS FUNCIONALIDADES QUE UM FUNCIONPARIO DE UMA FARMÁCIA TERIA 
-// DENTRO DE UM SISTEMA?
+
+
+
 }
+  

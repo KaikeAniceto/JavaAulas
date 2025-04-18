@@ -1,32 +1,14 @@
 
-public class Gerente extends Funcionario{
+public class Gerente extends Caixa {
     
-    public Gerente(){
-        
-    }
-    public Gerente (Float salario){
-        
-    }
-    public Gerente(
-                     String nome,
-                     String matricula,
-                     Float salario
-                    ){
-        this.setNome(nome);
-        this.setMatricula(matricula);
-        this.setSalario(salario);
-    }
-    
-    public void cancelarCompra(){
-        System.out.println("Compra cancelada");
-    }
+  public void aplicarDesconto(Venda venda, double percentualDesconto){
+      venda.aplicarDesconto(percentualDesconto);
+      System.out.println("Desconto de " + percentualDesconto + "% aplicado pelo gerente");
+  }
 
-    @Override
-    public String toString() {
-        return "Nome" + this.getNome();
-    }
-
-    
-    
+  public Gerente(String nome, Integer id) {
+      super(nome, id);
+      System.out.println("Gerente " + nome + " criado com sucesso!");
+  }
     
 }

@@ -3,11 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Aluno.ESTACIOACAD/Desktop/farmacia/src/Principal.java</file>
-            <file>file:/C:/Users/Aluno.ESTACIOACAD/Desktop/farmacia/src/Medicamento.java</file>
-            <file>file:/C:/Users/Aluno.ESTACIOACAD/Desktop/farmacia/src/Gerente.java</file>
-            <file>file:/C:/Users/Aluno.ESTACIOACAD/Desktop/farmacia/src/Funcionario.java</file>
-            <file>file:/C:/Users/Aluno.ESTACIOACAD/Desktop/farmacia/src/Caixa.java</file>
+            <file>file:/C:/Users/Kaike/Documents/NetBeansProjects/farmacia/src/Principal.java</file>
+            <file>file:/C:/Users/Kaike/Documents/NetBeansProjects/farmacia/src/DescontoParaClienteRegistrado.java</file>
+            <file>file:/C:/Users/Kaike/Documents/NetBeansProjects/farmacia/src/DescontoParaGerente.java</file>
+            <file>file:/C:/Users/Kaike/Documents/NetBeansProjects/farmacia/src/DescontoPromocional.java</file>
+            <file>file:/C:/Users/Kaike/Documents/NetBeansProjects/farmacia/src/Venda.java</file>
+            <file>file:/C:/Users/Kaike/Documents/NetBeansProjects/farmacia/src/Cliente.java</file>
         </group>
     </open-files>
 </project-private>
